@@ -1,0 +1,2 @@
+
+das hier ist deine Aufgabe: Erstelle eine einfache Webseite (1 Seite) mit HTML, SASS & JS. Benutze HTML/Bootstrap für die Grundstruktur. SASS für ein einfaches Design. JS um ein Diagramm deiner Wahl mit Daten (z.B. aus einer eigenen JSON-File o. einer eigenen Datenbank o. einer API) deiner Wahl darzustellen. Pluspunkte gibt es, wenn du eine ReactJS-Komponente mit einbaust.
