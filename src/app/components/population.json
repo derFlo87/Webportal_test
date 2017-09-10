@@ -1,5 +1,4 @@
 {
-"city": ["Magdeburg", "Chemnitz", "Dortmund", "Aachen", "Leipzig", "Halle"],
-"population": ["241333", "248645", "586181", "245885", "579530", "236991"]
-
+"city": [ "Magdeburg", "Chemnitz", "Dortmund", "Aachen", "Leipzig", "Halle" ],
+"population": [ "241333", "248645", "586181", "245885", "579530", "236991" ]
 }

@@ -6,7 +6,6 @@ import testdata from "./population.json"
 
 export class ReactChart extends React.Component {
 
-
   constructor(props){
     super(props);
     this.state = {
@@ -57,7 +56,6 @@ export class ReactChart extends React.Component {
             }
           }}
         />
-
       </div>
     )
   }
