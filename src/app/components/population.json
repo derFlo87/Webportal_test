@@ -1,9 +1,5 @@
-[
-{"country" : "Aruba", "population" : 103000},
-{"country" : "Afghanistan", "population" : 22720000},
-{"country" : "Angola", "population" : 12878000},
-{"country" : "Anguilla", "population" : 8000},
-{"country" : "Albania", "population" : 3401200},
-{"country" : "Andorra", "population" : 78000}
+{
+"city": ["Magdeburg", "Chemnitz", "Dortmund", "Aachen", "Leipzig", "Halle"],
+"population": ["241333", "248645", "586181", "245885", "579530", "236991"]
 
-]
+}

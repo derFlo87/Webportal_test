@@ -1,34 +1,21 @@
 import React from "react";
-import {Bar, Line, Pie} from 'react-chartjs-2';
+import {Bar} from 'react-chartjs-2';
+import testdata from "./population.json"
 
-import data from './population.json';
-
-
- for(var i = 0; i < data.country; i++) {
-     var obj = data[i];
-
-     console.log("Country: " + obj);
- };
 
 
 export class ReactChart extends React.Component {
+
 
   constructor(props){
     super(props);
     this.state = {
       chartData:{
-        labels: ['Boston', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'],
+        labels: testdata.city,
         datasets:[
           {
             label:'Population',
-            data:[
-              617594,
-              181045,
-              153060,
-              106519,
-              105162,
-              95072
-            ],
+            data: testdata.population,
             backgroundColor:[
               'rgba(255, 99, 132, 0.6)',
               'rgba(54, 162, 235, 0.6)',
@@ -40,13 +27,11 @@ export class ReactChart extends React.Component {
             ]
           }
         ]
-      } //end chartData
-    } //end state
-
-
-
-
+      }
+    }
   }
+
+
 
   static defaultProps = {
     displayTitle:true,
