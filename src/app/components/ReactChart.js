@@ -30,8 +30,6 @@ export class ReactChart extends React.Component {
     }
   }
 
-
-
   static defaultProps = {
     displayTitle:true,
     displayLegend: true,
