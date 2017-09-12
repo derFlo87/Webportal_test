@@ -1,17 +1,17 @@
 var path = require("path");
 const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 
-var DIST_DIR = path.resolve(__dirname, "dist");
+
 var SRC_DIR = path.resolve(__dirname, "src");
 
 
 
 var config = {
-  entry: SRC_DIR + "/app/index.js",
+  entry: SRC_DIR + "/index.js",
   output: {
-    path: DIST_DIR + "/app",
+    path: __dirname,
     filename: "bundle.js",
-    publicPath: "/app/"
+    publicPath: "/"
   },
   resolve: {
     extensions: ['.js', '.jsx']
